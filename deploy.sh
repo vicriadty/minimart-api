@@ -8,4 +8,5 @@ pip install -r requirements.txt
 sudo systemctl restart minimart
 sleep 3
 curl -f http://127.0.0.1:8000/health   # -f = gagal kalau HTTP error
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Deploy OK" >> ~/deploy.log   # jejak permanen tiap deploy
 echo "Deploy OK"
