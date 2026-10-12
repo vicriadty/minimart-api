@@ -1,5 +1,4 @@
-#!/usr/bin/env/ python3
-
+#!/usr/bin/env python3
 """Backup minimart.db ke ~/backups/, simpan 7 terakhir."""
 
 import shutil
